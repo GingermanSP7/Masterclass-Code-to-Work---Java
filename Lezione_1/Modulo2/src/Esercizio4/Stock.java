@@ -1,4 +1,4 @@
-package Esercizio4;
+package Lezione_1.Modulo2.src.Esercizio4;
 
 public class Stock {
     private String nome;

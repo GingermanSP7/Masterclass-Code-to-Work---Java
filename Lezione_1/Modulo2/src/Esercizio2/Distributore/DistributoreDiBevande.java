@@ -1,4 +1,4 @@
-package Esercizio2.Distributore;
+package Lezione_1.Modulo2.src.Esercizio2.Distributore;
 /**
  * Scrivere un programma in grado di modellare la gestione di un distributore di bevande. Il distributore gestirà una lista di 2 tipi diversi di prodotti: Caffè e Cappuccino.
     Progettare la classe DistributoreDiBevande costruito con un intero n che determina il numero di prodotti nel distributore

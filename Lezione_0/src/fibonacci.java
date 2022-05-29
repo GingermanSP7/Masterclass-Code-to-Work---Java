@@ -1,3 +1,5 @@
+package Lezione_0.src;
+
 import java.util.Scanner;
 public class fibonacci {
     public static void main(String args[]){

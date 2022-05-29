@@ -1,3 +1,5 @@
+package Lezione_0.src;
+
 /*
     Vengono forniti due array di interi nums1 e nums2, ordinati in ordine crescente, e due interi m e n, che rappresentano rispettivamente il numero di elementi in nums1 e nums2.
 

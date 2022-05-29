@@ -1,4 +1,4 @@
-package Esercizio1;
+package Lezione_1.Modulo2.src.Esercizio1;
 /** 
  *  Progettare una classe Contatore che permetta di:
  *      - Istanziare la classe con un valore iniziale

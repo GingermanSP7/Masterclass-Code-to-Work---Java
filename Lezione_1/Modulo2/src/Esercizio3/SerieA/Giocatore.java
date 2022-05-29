@@ -1,4 +1,4 @@
-package Esercizio3.SerieA;
+package Lezione_1.Modulo2.src.Esercizio3.SerieA;
 
 public class Giocatore {
     private String id_gioc;

@@ -1,4 +1,4 @@
-package Esercizio2.Distributore;
+package Lezione_1.Modulo2.src.Esercizio2.Distributore;
 
 public class Caffe extends Prodotto{
 

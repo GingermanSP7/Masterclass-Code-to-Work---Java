@@ -1,4 +1,4 @@
-package Esercizio3.Biblioteca;
+package Lezione_1.Modulo2.src.Esercizio3.Biblioteca;
 
 import java.util.Arrays;
 

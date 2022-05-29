@@ -1,4 +1,4 @@
-package Esercizio2.Distributore;
+package Lezione_1.Modulo2.src.Esercizio2.Distributore;
 
 /**
  *     Ogni tipo di prodotto può avere un codice univoco e un prezzo uguali nel tempo (ossia per uno stesso tipo di prodotto).

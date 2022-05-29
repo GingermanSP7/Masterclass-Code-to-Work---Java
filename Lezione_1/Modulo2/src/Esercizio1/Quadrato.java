@@ -1,4 +1,4 @@
-package Esercizio1;
+package Lezione_1.Modulo2.src.Esercizio1;
 
 /**
  * 

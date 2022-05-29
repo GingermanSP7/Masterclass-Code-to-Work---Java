@@ -1,4 +1,4 @@
-package Esercizio2.Lampadina;
+package Lezione_1.Modulo2.src.Esercizio2.Lampadina;
 
 public class Lampadina {
     private int stato;

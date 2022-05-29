@@ -1,4 +1,4 @@
-package Esercizio4;
+package Lezione_1.Modulo2.src.Esercizio4;
 
 /**
  * In questo problema ti verrà fornito un elenco dei prezzi giornalieri delle azioni e ti verrà chiesto di restituire le tre azioni con il prezzo medio più alto.

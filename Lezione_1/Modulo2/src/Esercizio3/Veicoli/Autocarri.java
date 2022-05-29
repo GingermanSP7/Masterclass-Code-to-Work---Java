@@ -1,4 +1,4 @@
-package Esercizio3.Veicoli;
+package Lezione_1.Modulo2.src.Esercizio3.Veicoli;
 
 public class Autocarri extends Veicolo {
     private int capacità_q;

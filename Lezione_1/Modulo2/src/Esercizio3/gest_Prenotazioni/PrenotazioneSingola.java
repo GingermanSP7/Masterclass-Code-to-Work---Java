@@ -1,4 +1,4 @@
-package Esercizio3.gest_Prenotazioni;
+package Lezione_1.Modulo2.src.Esercizio3.gest_Prenotazioni;
 
 public class PrenotazioneSingola extends Prenotazione{
     private Preferenza pref;
