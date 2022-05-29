@@ -1,3 +1,4 @@
+package Esercizio1;
 public interface Lista<T>{
     public abstract T get(int i);
     public abstract boolean contains(Object o);
