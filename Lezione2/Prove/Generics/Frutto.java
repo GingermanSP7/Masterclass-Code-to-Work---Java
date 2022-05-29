@@ -15,9 +15,10 @@ public class Frutto {
         ArrayList<Frutto> frutti = new ArrayList<>();
 
         Frutto.mangia(frutti);
+        
         // da errore perchè il metodo mangia prende solo una lista di tipo frutto e non pere, 
         // anche se questo è una sottoclasse del tipo desiderato
-        Frutto.mangia(pere);     
+        //Frutto.mangia(pere);     
 
         Frutto.mangia2(frutti);
         // questo lo possiamo fare perchè abbiamo specificato che il tipo generico comprende anche le sottoclassi di Frutto
