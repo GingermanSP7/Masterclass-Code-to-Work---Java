@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ProvaList{
     public static void main(String[] args) {
-        List<String>lista = new ArrayList<>();
+        // List<String> lista = new ArrayList<>();
         List<String> lista2 = new LinkedList<>();
 
         lista2.add("Pippo");
