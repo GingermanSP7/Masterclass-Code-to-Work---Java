@@ -81,7 +81,4 @@ public class Libro {
             return false;
         return true;
     }
-
-    
-    
 }

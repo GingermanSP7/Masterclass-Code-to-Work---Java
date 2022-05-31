@@ -47,37 +47,10 @@ public class Autore implements Comparable<Autore>{
         this.l = l;
     }
 
-    //@Override
-    // public int hashCode() {
-    //     final int prime = 31;
-    //     int result = 1;
-    //     result = prime * result + ((codice == null) ? 0 : codice.hashCode());
-    //     return result;
-    // }
-
-    // @Override
-    // public boolean equals(Object obj) {
-    //     if (this == obj)
-    //         return true;
-    //     if (obj == null)
-    //         return false;
-    //     if (getClass() != obj.getClass())
-    //         return false;
-    //     Autore other = (Autore) obj;
-    //     if (codice == null) {
-    //         if (other.codice != null)
-    //             return false;
-    //     } else if (!codice.equals(other.codice))
-    //         return false;
-    //     return true;
-    // }
-
     @Override
     public int compareTo(Autore o) {
         if(o.getCodice() < this.getCodice()) return 1;
         else if(o.getCodice() == this.getCodice()) return 0;
         else return 1;
     } 
-
-    
 }
