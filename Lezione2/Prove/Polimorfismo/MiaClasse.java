@@ -10,7 +10,7 @@ public class MiaClasse implements Interfaccia {
     }
 
     public static void main(String[] args) {
-        Interfaccia x = new MiaClasse();  //possiamo utilizzare x come se fosse un'istanza dell'interfaccia in questo modo
+        Interfaccia x = new MiaClasse();  //x è un riferimento all'interfaccia, però è un'istanza di MiaClasse
         x.metodoAstratto();
         //x.metodoDellaClasse();  //ma non possiamo chiamare i metodi della classe perchè x è un tipo Interfaccia
     }
