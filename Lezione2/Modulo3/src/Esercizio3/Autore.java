@@ -52,5 +52,5 @@ public class Autore implements Comparable<Autore>{
         if(o.getCodice() < this.getCodice()) return 1;
         else if(o.getCodice() == this.getCodice()) return 0;
         else return 1;
-    } 
+    }  
 }

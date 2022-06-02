@@ -48,8 +48,8 @@ public class Libreria2 {
         libreria_titolo.remove(l.getTitolo(),l);
     }
 
-    public Libro searchLibro_codice(Integer str){        
-        if(libreria.get(str) != null) return libreria.get(str);    
+    public Libro searchLibro_codice(Integer id){        
+        if(libreria.get(id) != null) return libreria.get(id);    
         return null;
     }
 
@@ -91,7 +91,7 @@ public class Libreria2 {
         Libro l3 = new Libro(3, "Java 9",a2, "Giovedì, Venerdì, Sabato");
         Libro l4 = new Libro(4, "Zanna Gialla",a3, "Mela, Pera, Fragola");
         Libro l5 = new Libro(5, "Harry Fotter",a1, "Ho finito la fantasia");
-        Libro l6 = new Libro(6, "AAAH",a3, "public static void main");
+        //Libro l6 = new Libro(6, "AAAH",a3, "public static void main");
 
         
         Libreria2 lib = new Libreria2();
@@ -117,5 +117,8 @@ public class Libreria2 {
         a3.setL(mr);
 
         lib.stampaSinossi(a1);
+        System.out.println("----------------------");
+        System.out.println(lib.searchLibro_codice(5).getTitolo() + " " + lib.searchLibro_codice(5).getSinossi());
+        //System.out.println(lib.searchLibro_autore(a2)); //da sistemare
     }
 }
